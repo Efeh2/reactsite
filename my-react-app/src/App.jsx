@@ -1,9 +1,9 @@
-
-import Counter from "./Counter"
+ 
+import MyComp from "./MyComp"
 
 function App() {
     
-    return(<Counter />)
+    return(<MyComp />)
 }
 
 export default App

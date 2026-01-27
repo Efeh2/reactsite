@@ -39,7 +39,7 @@ function MyComp() {
 
             <textarea value={comment} onChange={handleCommentChange} 
             type="text" placeholder="input your delivery specifications"/>
-            <p>Quantity: {comment}</p>
+            <p>Comment: {comment}</p>
 
             <select value={payment} onChange={handlePaymentChange}>
                     <option value="">Select an option</option>

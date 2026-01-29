@@ -1,10 +1,10 @@
- 
-import ColorPicker from "./ColorPicker"
+
+import UpdateArray from "./UpdateArray"
 
 
 function App() {
     
-    return(<ColorPicker />)
+    return(<UpdateArray />)
 }
 
 export default App

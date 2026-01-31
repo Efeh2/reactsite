@@ -1,10 +1,9 @@
 
-import UpdateArray from "./UpdateArray"
 
 
 function App() {
     
-    return(<UpdateArray />)
+    return(< ></>)
 }
 
 export default App

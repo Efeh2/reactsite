@@ -1,36 +1,36 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 
-// function UpdateArray() {
+function UpdateArray() {
 
-//     const [foods, setFoods] = useState(["Apple", "Orange", "Banana"]);
+    const [foods, setFoods] = useState(["Apple", "Orange", "Banana"]);
 
-//     function handleAddFood(){
+    function handleAddFood(){
 
-//         const newFood = document.getElementById("foodInput").value;
-//         document.getElementById("foodInput").value = "";
+        const newFood = document.getElementById("foodInput").value;
+        document.getElementById("foodInput").value = "";
 
-//         setFoods(f => [...f, newFood]);
-//     }
+        setFoods(f => [...f, newFood]);
+    }
     
 
-//     function handleRemoveFood(index){
+    function handleRemoveFood(index){
         
-//         setFoods(foods.filter((_, i) => i !== index));
-//     }
+        setFoods(foods.filter((_, i) => i !== index));
+    }
 
-//     return(
-//         <div>
-//            <h2>List Of Foods</h2>
-//            <ul>
-//             {foods.map((foods, index) => 
-//                 <li key={index} onClick={() => handleRemoveFood(index)}>
-//                 {foods}</li>)}
-//            </ul>
-//            <input type="text" placeholder="Enter food name" 
-//            id="foodInput"/>
-//            <button onClick={handleAddFood}>Add Food</button>
-//         </div>
-//     )
-// }
+    return(
+        <div>
+           <h2>List Of Foods</h2>
+           <ul>
+            {foods.map((foods, index) => 
+                <li key={index} onClick={() => handleRemoveFood(index)}>
+                {foods}</li>)}
+           </ul>
+           <input type="text" placeholder="Enter food name" 
+           id="foodInput"/>
+           <button onClick={handleAddFood}>Add Food</button>
+        </div>
+    )
+}
 
-// export default UpdateArray
+export default UpdateArray

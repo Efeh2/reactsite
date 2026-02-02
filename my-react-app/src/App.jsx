@@ -1,10 +1,10 @@
-import UpdateArray from "./UpdateArray"
-
+import ToDoList from "./ToDoList"
 
 
 function App() {
-    
-    return(<UpdateArray />)
+  
+
+    return(<ToDoList />)
 }
 
 export default App

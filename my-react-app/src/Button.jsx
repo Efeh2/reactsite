@@ -1,8 +1,8 @@
-//  function Button() {
+ function Button() {
 
-//   const handleClick = (e) => e.target.textContent = "OUCH!😭";
+  const handleClick = (e) => e.target.textContent = "OUCH!😭";
 
-//    return(<button onDoubleClick={(e) => handleClick(e)}>Click ME!!!!😒</button>)
-// }
+   return(<button onDoubleClick={(e) => handleClick(e)}>Click ME!!!!😒</button>)
+}
 
-//  export default Button
+ export default Button

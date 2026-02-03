@@ -2,10 +2,7 @@ import React, { useState } from "react";
 
 function ToDoList(){
   
-    const [tasks, setTasks] = useState(["Eat BreakFast🍴", 
-                                        "Wash Plates🍽️",
-                                        "Clear the House🏡",
-                                        "Keep Coding👩‍💻"]);
+    const [tasks, setTasks] = useState([]);
     const [newTask, setNewTask] = useState("");
 
     function handleInputChange(event){
@@ -49,8 +46,8 @@ function ToDoList(){
 
             <div>
                 <input type="text" placeholder="Enter A Task..."
-                value={newTask} onChange={handleInputChange }/>
-                <button className="add-button" onClick={addTask}>
+                value={newTask} onChange={handleInputChange }/> 
+                <button className="add-button" onClick={addTask}> 
                     Add
                 </button>
             </div>
@@ -60,15 +57,15 @@ function ToDoList(){
                     <li key={index}>
                         <span className="text">{task}</span>
                         <button onClick={() => deleteTask(index)} 
-                        className="delete-button">
+                        className="delete-button"> 
                             Delete
                         </button>
                         <button onClick={() => moveTaskUp(index)} 
-                        className="move-button">
+                        className="move-button"> 
                             ⤴️
                         </button>
                         <button onClick={() => moveTaskDown(index)} 
-                        className="move-button">
+                        className="move-button"> 
                             ⤵️
                         </button>
                     </li>

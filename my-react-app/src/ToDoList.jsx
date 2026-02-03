@@ -6,12 +6,12 @@ function ToDoList(){
     const [newTask, setNewTask] = useState("");
 
     function handleInputChange(event){
-        setNewTask(event.target.value)
+        setNewTask(event.target.value);
     }
 
     function addTask(){
         if(newTask.trim() !== ""){
-            setTasks(t => [...tasks, newTask]);
+            setTasks(t => [...t, newTask]);
             setNewTask("");
         }
     }

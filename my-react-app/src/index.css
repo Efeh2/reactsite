@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: hsl(0, 0%, 10%);
 }
 .to-do-list{
@@ -67,7 +67,7 @@ li{
     font-size: 1.4rem;
     margin-left: 10px;
 }
-/* Mobile responsive styles */
+
 @media (max-width: 600px) {
     .to-do-list{
         margin-top: 20px;
@@ -109,4 +109,4 @@ li{
     .delete-button .move-button{
         margin-left: 0;
     }
-}
+} */

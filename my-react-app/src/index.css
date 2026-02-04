@@ -1,4 +1,4 @@
-/* body{
+body{
     background-color: hsl(0, 0%, 10%);
 }
 .to-do-list{
@@ -109,4 +109,4 @@ li{
     .delete-button .move-button{
         margin-left: 0;
     }
-} */
+}
